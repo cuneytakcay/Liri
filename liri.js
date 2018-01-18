@@ -25,6 +25,8 @@ function startApp() {
 		case 'do-what-it-says':
 			readRandom();
 			break;
+		default:
+			console.log('Wrong entry! Please try again.');
 	}
 }
 
